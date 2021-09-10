@@ -79,9 +79,13 @@ function Resume() {
             </div>
 
             <div className="footer" style={{backgroundColor: "#0F1624", height: "10vh", marginTop: '50px', display: 'flex', justifyContent: 'space-between'}}>
-                <div style={{marginLeft: '100px', marginTop: '10px'}}>
-                <img src={require('./email.png').default} alt="git" style={{marginTop: '10px'}}></img>
-                <a style={{color: 'white', marginLeft: '7px'}}>mahroo.rahman@mail.mcgill.ca</a>
+                <div style={{marginLeft: '100px', marginTop: '10px', display: 'flex', justifyContent: 'space-between'}}>
+                    <div>
+                <img src={require('./email.png').default} alt="git" style={{marginTop: '8px'}}></img>
+                </div>
+                <div style={{marginTop: '15px'}}>
+                <p style={{color: 'white', marginLeft: '7px'}}>mahroo.rahman@mail.mcgill.ca</p>
+                </div>
                 </div>
                 
                 <div style={{display: 'flex', justifyContent: 'space-between'}}>
@@ -89,7 +93,7 @@ function Resume() {
                 <img src={require('./inkedin.png').default} alt="git" height={28} width={40} style={{marginTop: '20px', paddingRight: '10px'}}></img>
                 </div>
                 <div style={{marginTop: '28px', marginRight: '20px'}}>
-                <a  href='https://www.linkedin.com/in/mahroo-rahman/' target="_blank" style={{color: 'white'}}>Linkedin</a>
+                <a  href='https://www.linkedin.com/in/mahroo-rahman/' target="_blank" rel="noreferrer" style={{color: 'white'}}>Linkedin</a>
                 </div>
                 </div>
 
@@ -98,7 +102,7 @@ function Resume() {
                 <img src={require('./github.png').default} alt="git"  style={{paddingRight: '10px'}}></img>  
                 </div>
                 <div style={{marginTop: '7px'}}>
-                <a style={{color: 'white'}} href='https://github.com/mahroo12' target="_blank">GitHub</a>
+                <a style={{color: 'white'}} href='https://github.com/mahroo12' target="_blank" rel="noreferrer">GitHub</a>
                 </div>
                 </div>
             </div>
