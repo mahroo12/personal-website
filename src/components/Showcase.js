@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link } from 'react-scroll';
 import Typewriter from 'typewriter-effect';
 
 function Showcase() {
@@ -10,7 +11,7 @@ function Showcase() {
             }}/></h1>
             <p >Click on the button below to view projects.</p>
             <div>
-                <button> View projects </button>
+                <button><Link to="third_page" smooth={true} duration={1000}> View projects</Link> </button>
             </div>
         </div>
     )

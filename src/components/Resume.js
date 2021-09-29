@@ -32,9 +32,33 @@ function Resume() {
                                 height={150} width={180} 
                                 style={{marginLeft: '120px', marginTop: '170px'}}></img>
                         </div>
-                        <div className="education-desc" style={{marginRight: '170px', marginTop: '220px'}}>
+                        <div className="education-desc" style={{marginRight: '190px', marginTop: '220px'}}>
                             <p style={{fontSize: '22px', fontWeight: 'bold'}}>Engineering Undergraduate Society of McGill</p>
                             <p style={{fontSize: '20px', fontWeight: 'lighter', paddingTop: '4px', color: '#bdbbbb'}}>Tech Rental Manager | July 2021 - Present</p>
+                        </div>
+                    </div>
+
+                    <div className="logo-and-description" style={{display: 'flex', justifyContent: 'space-between'}}>
+                        <div className="eus-logo">
+                            <img src={require('./hack4impact.jpg').default} alt="impact" 
+                                height={140} width={140} 
+                                style={{marginLeft: '130px', marginTop: '160px'}}></img>
+                        </div>
+                        <div className="hack-desc" style={{marginRight: '380px', marginTop: '220px'}}>
+                            <p style={{fontSize: '22px', fontWeight: 'bold'}}>Hack For Impact</p>
+                            <p style={{fontSize: '20px', fontWeight: 'lighter', paddingTop: '4px', color: '#bdbbbb'}}>Developer | Sep 2021 - Present</p>
+                        </div>
+                    </div>
+                    
+                    <div className="logo-and-description" style={{display: 'flex', justifyContent: 'space-between'}}>
+                        <div className="eus-logo">
+                            <img src={require('./eline.png').default} alt="eline" 
+                                height={140} width={140} 
+                                style={{marginLeft: '130px', marginTop: '160px'}}></img>
+                        </div>
+                        <div className="eline-desc" style={{marginRight: '160px', marginTop: '220px'}}>
+                            <p style={{fontSize: '22px', fontWeight: 'bold'}}>Engaged Learning In Engineering</p>
+                            <p style={{fontSize: '20px', fontWeight: 'lighter', paddingTop: '4px', color: '#bdbbbb'}}>Vice President of Communications | Sep 2021 - Present</p>
                         </div>
                     </div>
 
@@ -46,7 +70,7 @@ function Resume() {
                         </div>
                         <div className="mrt-desc" style={{marginRight: '320px', marginTop: '220px'}}>
                             <p style={{fontSize: '22px', fontWeight: 'bold'}}>McGill Rocket Design Team</p>
-                            <p style={{fontSize: '20px', fontWeight: 'lighter', paddingTop: '4px', color: '#bdbbbb'}}>Team Member | Sep 2020 - Present</p>
+                            <p style={{fontSize: '20px', fontWeight: 'lighter', paddingTop: '4px', color: '#bdbbbb'}}>Team Member | Sep 2020 - Dec 2020</p>
                         </div>
                     </div>
 

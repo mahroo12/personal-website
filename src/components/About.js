@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link } from 'react-scroll';
 
 function About() {
     return (
@@ -35,7 +36,7 @@ function About() {
                                 cursor: 'pointer',
                                 transition: '0.4s ease',
                                 
-                            }}><a style={{color: 'white'}} href={require('./Mahroo.pdf').default}>Resume</a></button>
+                            }}><a style={{color: 'white'}} href={require('./MahrooRahman.pdf').default}>Resume</a></button>
                         </div>
                         <div>
                         <button style= {{
@@ -55,7 +56,7 @@ function About() {
                                 cursor: 'pointer',
                                 transition: '0.4s ease',
                                 
-                            }}>Projects</button>
+                            }}><Link to="third_page" smooth={true} duration={1000}>Projects</Link></button>
                         </div>
                     </div>
                 </div>

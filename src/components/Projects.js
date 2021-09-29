@@ -79,7 +79,7 @@ function Projects() {
                                                         Junit tests, TravisCI, Gradle</p>
                         </div>
                         <div className="card-button">
-                            <button style={{
+                            {/*<button style={{
                                 color: '#FFF',
                                 background: '#c73e3e',
                                 border: '1px solid rgba(255, 255, 255, 0.33)',
@@ -96,7 +96,7 @@ function Projects() {
                                 
                                 cursor: 'pointer',
                                 transition: '0.4s ease',
-                            }}>code</button>
+                            }}>code</button>*/}
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ function Projects() {
 
                         </div>
                         <div className="card-button">
-                            <button style={{
+                            {/*<button style={{
                                 color: '#FFF',
                                 background: '#c73e3e',
                                 border: '1px solid rgba(255, 255, 255, 0.33)',
@@ -141,7 +141,7 @@ function Projects() {
                                 
                                 cursor: 'pointer',
                                 transition: '0.4s ease',
-                            }}>code</button>
+                            }}>code</button>*/}
                         </div>
                     </div>
 

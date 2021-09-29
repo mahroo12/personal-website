@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="first_page">
                 <nav>
                     <div className="logo">
-                        <h4 style={{paddingLeft: '10px', fontSize: '25px',  color:"rgba(255, 255, 255, 0.85)"}}>Mahroo Rahman</h4>
+                        <h4 style={{paddingLeft: '10px', fontSize: '25px',  color:"rgba(255, 255, 255, 0.85)"}}>MAHROO RAHMAN</h4>
                     </div>
                     <ul className="navLinks">
                         
